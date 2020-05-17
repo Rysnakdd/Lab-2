@@ -7,13 +7,13 @@ int main() {
 
     float x, y, z;
 
-    printf("Щоб обчислити функцію \n (sqrt(x) + (2 * sqrt(y*z))) / (sqrt(y) - (2 * sqrt(x*z))) \n задайте значення x y z :\n ");
+    printf("Р©РѕР± РѕР±С‡РёСЃР»РёС‚Рё С„СѓРЅРєС†С–СЋ \n (sqrt(x) + (2 * sqrt(y*z))) / (sqrt(y) - (2 * sqrt(x*z))) \n Р·Р°РґР°Р№С‚Рµ Р·РЅР°С‡РµРЅРЅСЏ x y z :\n ");
 
         scanf_s("%f%f%f", &x, &y, &z);
 
         double a = (sqrt(x) + (2 * sqrt(y*z))) / (sqrt(y) - (2 * sqrt(x*z)));
    
-    printf("Відповідь: %g\n",a);
+    printf("Р’С–РґРїРѕРІС–РґСЊ: %g\n",a);
 
     return 0;
 }
