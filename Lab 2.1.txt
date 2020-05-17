@@ -6,17 +6,17 @@ int main() {
     setlocale(LC_CTYPE, "ukr");
 
    float a,b;
-    printf("Введіть два цілі числа:\n");
+    printf("Р’РІРµРґС–С‚СЊ РґРІР° С†С–Р»С– С‡РёСЃР»Р°:\n");
     scanf_s("%f%f", &a, &b);
 
     double c = fmod(b,a);
-    printf("Залишок від ділення 2-го числа на 1-е = %g\n", c);
+    printf("Р—Р°Р»РёС€РѕРє РІС–Рґ РґС–Р»РµРЅРЅСЏ 2-РіРѕ С‡РёСЃР»Р° РЅР° 1-Рµ = %g\n", c);
 
     double v = b - a;
-    printf("різниця 2-го і 1-го = %g\n", v);
+    printf("СЂС–Р·РЅРёС†СЏ 2-РіРѕ С– 1-РіРѕ = %g\n", v);
 
     double s = a + b;
-    printf("Сума чисел = %g\n", s);
+    printf("РЎСѓРјР° С‡РёСЃРµР» = %g\n", s);
 
 
     return 0;
