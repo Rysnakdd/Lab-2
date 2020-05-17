@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+
+int main() {
+    setlocale(LC_CTYPE, "ukr");
+
+   float a,b;
+    printf("¬вед≥ть два ц≥л≥ числа:\n");
+    scanf_s("%f%f", &a, &b);
+
+    double c = fmod(b,a);
+    printf("«алишок в≥д д≥ленн€ 2-го числа на 1-е = %g\n", c);
+
+    double v = b - a;
+    printf("р≥зниц€ 2-го ≥ 1-го = %g\n", v);
+
+    double s = a + b;
+    printf("—ума чисел = %g\n", s);
+
+
+    return 0;
+}

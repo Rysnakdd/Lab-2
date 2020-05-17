@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+
+int main() {
+    setlocale(LC_CTYPE, "ukr");
+
+    float x, y, z;
+
+    printf("Щоб обчислити функцію \n (sqrt(x) + (2 * sqrt(y*z))) / (sqrt(y) - (2 * sqrt(x*z))) \n задайте значення x y z :\n ");
+
+        scanf_s("%f%f%f", &x, &y, &z);
+
+        double a = (sqrt(x) + (2 * sqrt(y*z))) / (sqrt(y) - (2 * sqrt(x*z)));
+   
+    printf("Відповідь: %g\n",a);
+
+    return 0;
+}

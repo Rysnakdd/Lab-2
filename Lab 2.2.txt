@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+
+int main() {
+    setlocale(LC_CTYPE, "ukr");
+
+    float a, b, c;
+    a = -20;
+    b = 4;
+    c = 15;
+    double y = ((a * b * c) / (a + b + c)) - ((a - b - c) / (a * b * c));
+    printf("Обчисліть функію:\n y = ((a * b * c) / (a + b + c)) - ((a - b - c) / (a * b * c))\n якщо:\n a = -20\n b = 4\n c = 15\n");
+    printf("Відповідь - %g\n", y);
+
+    return 0;
+}
