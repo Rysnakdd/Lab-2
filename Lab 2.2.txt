@@ -10,8 +10,8 @@ int main() {
     b = 4;
     c = 15;
     double y = ((a * b * c) / (a + b + c)) - ((a - b - c) / (a * b * c));
-    printf("Обчисліть функію:\n y = ((a * b * c) / (a + b + c)) - ((a - b - c) / (a * b * c))\n якщо:\n a = -20\n b = 4\n c = 15\n");
-    printf("Відповідь - %g\n", y);
+    printf("РћР±С‡РёСЃР»С–С‚СЊ С„СѓРЅРєС–СЋ:\n y = ((a * b * c) / (a + b + c)) - ((a - b - c) / (a * b * c))\n СЏРєС‰Рѕ:\n a = -20\n b = 4\n c = 15\n");
+    printf("Р’С–РґРїРѕРІС–РґСЊ - %g\n", y);
 
     return 0;
 }
